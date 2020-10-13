@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC80EE3253593FF00ECD853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC80EE2253593FF00ECD853 /* AppDelegate.swift */; };
+		AFC80EE5253593FF00ECD853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC80EE4253593FF00ECD853 /* SceneDelegate.swift */; };
+		AFC80EE7253593FF00ECD853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC80EE6253593FF00ECD853 /* ViewController.swift */; };
+		AFC80EEA253593FF00ECD853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC80EE8253593FF00ECD853 /* Main.storyboard */; };
+		AFC80EED253593FF00ECD853 /* InstaIsil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC80EEB253593FF00ECD853 /* InstaIsil.xcdatamodeld */; };
+		AFC80EEF2535940100ECD853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC80EEE2535940100ECD853 /* Assets.xcassets */; };
+		AFC80EF22535940100ECD853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC80EF02535940100ECD853 /* LaunchScreen.storyboard */; };
+		AFC80EFD2535940100ECD853 /* InstaIsilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC80EFC2535940100ECD853 /* InstaIsilTests.swift */; };
+		AFC80F082535940100ECD853 /* InstaIsilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC80F072535940100ECD853 /* InstaIsilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC80EF92535940100ECD853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC80ED7253593FF00ECD853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC80EDE253593FF00ECD853;
+			remoteInfo = InstaIsil;
+		};
+		AFC80F042535940100ECD853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC80ED7253593FF00ECD853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC80EDE253593FF00ECD853;
+			remoteInfo = InstaIsil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC80EDF253593FF00ECD853 /* InstaIsil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaIsil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC80EE2253593FF00ECD853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC80EE4253593FF00ECD853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFC80EE6253593FF00ECD853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFC80EE9253593FF00ECD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC80EEC253593FF00ECD853 /* InstaIsil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaIsil.xcdatamodel; sourceTree = "<group>"; };
+		AFC80EEE2535940100ECD853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC80EF12535940100ECD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC80EF32535940100ECD853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC80EF82535940100ECD853 /* InstaIsilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaIsilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC80EFC2535940100ECD853 /* InstaIsilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaIsilTests.swift; sourceTree = "<group>"; };
+		AFC80EFE2535940100ECD853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC80F032535940100ECD853 /* InstaIsilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaIsilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC80F072535940100ECD853 /* InstaIsilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaIsilUITests.swift; sourceTree = "<group>"; };
+		AFC80F092535940100ECD853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC80EDC253593FF00ECD853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80EF52535940100ECD853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80F002535940100ECD853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC80ED6253593FF00ECD853 = {
+			isa = PBXGroup;
+			children = (
+				AFC80EE1253593FF00ECD853 /* InstaIsil */,
+				AFC80EFB2535940100ECD853 /* InstaIsilTests */,
+				AFC80F062535940100ECD853 /* InstaIsilUITests */,
+				AFC80EE0253593FF00ECD853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC80EE0253593FF00ECD853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC80EDF253593FF00ECD853 /* InstaIsil.app */,
+				AFC80EF82535940100ECD853 /* InstaIsilTests.xctest */,
+				AFC80F032535940100ECD853 /* InstaIsilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC80EE1253593FF00ECD853 /* InstaIsil */ = {
+			isa = PBXGroup;
+			children = (
+				AFC80EE2253593FF00ECD853 /* AppDelegate.swift */,
+				AFC80EE4253593FF00ECD853 /* SceneDelegate.swift */,
+				AFC80EE6253593FF00ECD853 /* ViewController.swift */,
+				AFC80EE8253593FF00ECD853 /* Main.storyboard */,
+				AFC80EEE2535940100ECD853 /* Assets.xcassets */,
+				AFC80EF02535940100ECD853 /* LaunchScreen.storyboard */,
+				AFC80EF32535940100ECD853 /* Info.plist */,
+				AFC80EEB253593FF00ECD853 /* InstaIsil.xcdatamodeld */,
+			);
+			path = InstaIsil;
+			sourceTree = "<group>";
+		};
+		AFC80EFB2535940100ECD853 /* InstaIsilTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC80EFC2535940100ECD853 /* InstaIsilTests.swift */,
+				AFC80EFE2535940100ECD853 /* Info.plist */,
+			);
+			path = InstaIsilTests;
+			sourceTree = "<group>";
+		};
+		AFC80F062535940100ECD853 /* InstaIsilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC80F072535940100ECD853 /* InstaIsilUITests.swift */,
+				AFC80F092535940100ECD853 /* Info.plist */,
+			);
+			path = InstaIsilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC80EDE253593FF00ECD853 /* InstaIsil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC80F0C2535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsil" */;
+			buildPhases = (
+				AFC80EDB253593FF00ECD853 /* Sources */,
+				AFC80EDC253593FF00ECD853 /* Frameworks */,
+				AFC80EDD253593FF00ECD853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaIsil;
+			productName = InstaIsil;
+			productReference = AFC80EDF253593FF00ECD853 /* InstaIsil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC80EF72535940100ECD853 /* InstaIsilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC80F0F2535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsilTests" */;
+			buildPhases = (
+				AFC80EF42535940100ECD853 /* Sources */,
+				AFC80EF52535940100ECD853 /* Frameworks */,
+				AFC80EF62535940100ECD853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC80EFA2535940100ECD853 /* PBXTargetDependency */,
+			);
+			name = InstaIsilTests;
+			productName = InstaIsilTests;
+			productReference = AFC80EF82535940100ECD853 /* InstaIsilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC80F022535940100ECD853 /* InstaIsilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC80F122535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsilUITests" */;
+			buildPhases = (
+				AFC80EFF2535940100ECD853 /* Sources */,
+				AFC80F002535940100ECD853 /* Frameworks */,
+				AFC80F012535940100ECD853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC80F052535940100ECD853 /* PBXTargetDependency */,
+			);
+			name = InstaIsilUITests;
+			productName = InstaIsilUITests;
+			productReference = AFC80F032535940100ECD853 /* InstaIsilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC80ED7253593FF00ECD853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AFC80EDE253593FF00ECD853 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AFC80EF72535940100ECD853 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AFC80EDE253593FF00ECD853;
+					};
+					AFC80F022535940100ECD853 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AFC80EDE253593FF00ECD853;
+					};
+				};
+			};
+			buildConfigurationList = AFC80EDA253593FF00ECD853 /* Build configuration list for PBXProject "InstaIsil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC80ED6253593FF00ECD853;
+			productRefGroup = AFC80EE0253593FF00ECD853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC80EDE253593FF00ECD853 /* InstaIsil */,
+				AFC80EF72535940100ECD853 /* InstaIsilTests */,
+				AFC80F022535940100ECD853 /* InstaIsilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC80EDD253593FF00ECD853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC80EF22535940100ECD853 /* LaunchScreen.storyboard in Resources */,
+				AFC80EEF2535940100ECD853 /* Assets.xcassets in Resources */,
+				AFC80EEA253593FF00ECD853 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80EF62535940100ECD853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80F012535940100ECD853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC80EDB253593FF00ECD853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC80EE7253593FF00ECD853 /* ViewController.swift in Sources */,
+				AFC80EE3253593FF00ECD853 /* AppDelegate.swift in Sources */,
+				AFC80EED253593FF00ECD853 /* InstaIsil.xcdatamodeld in Sources */,
+				AFC80EE5253593FF00ECD853 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80EF42535940100ECD853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC80EFD2535940100ECD853 /* InstaIsilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC80EFF2535940100ECD853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC80F082535940100ECD853 /* InstaIsilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC80EFA2535940100ECD853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC80EDE253593FF00ECD853 /* InstaIsil */;
+			targetProxy = AFC80EF92535940100ECD853 /* PBXContainerItemProxy */;
+		};
+		AFC80F052535940100ECD853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC80EDE253593FF00ECD853 /* InstaIsil */;
+			targetProxy = AFC80F042535940100ECD853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC80EE8253593FF00ECD853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC80EE9253593FF00ECD853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC80EF02535940100ECD853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC80EF12535940100ECD853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC80F0A2535940100ECD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC80F0B2535940100ECD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC80F0D2535940100ECD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC80F0E2535940100ECD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC80F102535940100ECD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaIsil.app/InstaIsil";
+			};
+			name = Debug;
+		};
+		AFC80F112535940100ECD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsilTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaIsil.app/InstaIsil";
+			};
+			name = Release;
+		};
+		AFC80F132535940100ECD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaIsil;
+			};
+			name = Debug;
+		};
+		AFC80F142535940100ECD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaIsilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.isil.InstaIsilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaIsil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC80EDA253593FF00ECD853 /* Build configuration list for PBXProject "InstaIsil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC80F0A2535940100ECD853 /* Debug */,
+				AFC80F0B2535940100ECD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC80F0C2535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC80F0D2535940100ECD853 /* Debug */,
+				AFC80F0E2535940100ECD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC80F0F2535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC80F102535940100ECD853 /* Debug */,
+				AFC80F112535940100ECD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC80F122535940100ECD853 /* Build configuration list for PBXNativeTarget "InstaIsilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC80F132535940100ECD853 /* Debug */,
+				AFC80F142535940100ECD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFC80EEB253593FF00ECD853 /* InstaIsil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFC80EEC253593FF00ECD853 /* InstaIsil.xcdatamodel */,
+			);
+			currentVersion = AFC80EEC253593FF00ECD853 /* InstaIsil.xcdatamodel */;
+			path = InstaIsil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFC80ED7253593FF00ECD853 /* Project object */;
+}
